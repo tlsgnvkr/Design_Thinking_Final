@@ -16,891 +16,1182 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:gravity="center"
             android:layout_weight="2"
-            android:text="Hello World">
-        </TextView>
+            android:background="@drawable/border_of_calendar"
+            android:gravity="center"
+            android:text="Hello World"></TextView>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:orientation="horizontal"
             android:layout_weight="1"
+            android:background="@drawable/border_of_calendar"
+            android:orientation="horizontal"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="0dp">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="SUN"
-                android:textColor="#ff0000"
-                android:gravity="center">
-            </TextView>
+                android:textColor="#ff0000"></TextView>
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="MON"
-                android:textColor="#000000"
-                android:gravity="center">
-            </TextView>
+                android:textColor="#000000"></TextView>
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="TUE"
-                android:textColor="#000000"
-                android:gravity="center">
-            </TextView>
+                android:textColor="#000000"></TextView>
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="WED"
-                android:textColor="#000000"
-                android:gravity="center">
-            </TextView>
+                android:textColor="#000000"></TextView>
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="THU"
-                android:textColor="#000000"
-                android:gravity="center">
-            </TextView>
+                android:textColor="#000000"></TextView>
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="FRI"
-                android:textColor="#000000"
-                android:gravity="center">
-            </TextView>
+                android:textColor="#000000"></TextView>
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="SAT"
-                android:textColor="#0000ff"
-                android:gravity="center">
-            </TextView>
+                android:textColor="#0000ff"></TextView>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:orientation="horizontal"
             android:layout_weight="5"
+            android:orientation="horizontal"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="0dp">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
-                    android:text="1"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
-                    android:text="1"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
-                    android:text="1"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
-                    android:text="1"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
-                    android:text="1"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
-                    android:text="1"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
-                    android:text="1"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-            </LinearLayout>
-        </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:orientation="horizontal"
-            android:layout_weight="5"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="0dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
                 <TextView
+                    android:id="@+id/date_0"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:text="1"
+                    android:background="@drawable/border_of_calendar"
                     android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
+                    android:text="0"
+                    android:textColor="#ff0000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_0"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
+                    android:orientation="vertical"></LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
                 <TextView
+                    android:id="@+id/date_1"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:text="1"
+                    android:background="@drawable/border_of_calendar"
                     android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
+                    android:text="1"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_1"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
+                    android:orientation="vertical"></LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
                 <TextView
+                    android:id="@+id/date_2"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:text="1"
+                    android:background="@drawable/border_of_calendar"
                     android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
+                    android:text="2"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_2"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
+                    android:orientation="vertical"></LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
                 <TextView
+                    android:id="@+id/date_3"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:text="1"
+                    android:background="@drawable/border_of_calendar"
                     android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
+                    android:text="3"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_3"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
+                    android:orientation="vertical"></LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
                 <TextView
+                    android:id="@+id/date_4"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:text="1"
+                    android:background="@drawable/border_of_calendar"
                     android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
+                    android:text="4"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_4"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
+                    android:orientation="vertical"></LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
                 <TextView
+                    android:id="@+id/date_5"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:text="1"
+                    android:background="@drawable/border_of_calendar"
                     android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
+                    android:text="5"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_5"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
+                    android:orientation="vertical"></LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
                 <TextView
+                    android:id="@+id/date_6"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:text="1"
+                    android:background="@drawable/border_of_calendar"
                     android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
+                    android:text="6"
+                    android:textColor="#0000ff" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_6"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
+                    android:orientation="vertical"></LinearLayout>
             </LinearLayout>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:orientation="horizontal"
             android:layout_weight="5"
+            android:orientation="horizontal"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="0dp">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
                 <TextView
+                    android:id="@+id/date_7"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:text="1"
+                    android:background="@drawable/border_of_calendar"
                     android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
+                    android:text="7"
+                    android:textColor="#ff0000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_7"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
+                    android:orientation="vertical"></LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
                 <TextView
+                    android:id="@+id/date_8"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:text="1"
+                    android:background="@drawable/border_of_calendar"
                     android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
+                    android:text="8"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_8"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
+                    android:orientation="vertical"></LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
                 <TextView
+                    android:id="@+id/date_9"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:text="1"
+                    android:background="@drawable/border_of_calendar"
                     android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
+                    android:text="9"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_9"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
+                    android:orientation="vertical"></LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
                 <TextView
+                    android:id="@+id/date_10"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:text="1"
+                    android:background="@drawable/border_of_calendar"
                     android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
+                    android:text="10"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_10"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
+                    android:orientation="vertical"></LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
                 <TextView
+                    android:id="@+id/date_11"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:text="1"
+                    android:background="@drawable/border_of_calendar"
                     android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
+                    android:text="11"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_11"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
+                    android:orientation="vertical"></LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
                 <TextView
+                    android:id="@+id/date_12"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:text="1"
+                    android:background="@drawable/border_of_calendar"
                     android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
+                    android:text="12"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_12"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
+                    android:orientation="vertical"></LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
                 <TextView
+                    android:id="@+id/date_13"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:text="1"
+                    android:background="@drawable/border_of_calendar"
                     android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
+                    android:text="13"
+                    android:textColor="#0000ff" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_13"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
+                    android:orientation="vertical"></LinearLayout>
             </LinearLayout>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:orientation="horizontal"
             android:layout_weight="5"
+            android:orientation="horizontal"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="0dp">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
                 <TextView
+                    android:id="@+id/date_14"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:text="1"
+                    android:background="@drawable/border_of_calendar"
                     android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
+                    android:text="14"
+                    android:textColor="#ff0000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_14"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
+                    android:orientation="vertical"></LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
                 <TextView
+                    android:id="@+id/date_15"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:text="1"
+                    android:background="@drawable/border_of_calendar"
                     android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
+                    android:text="15"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_15"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
+                    android:orientation="vertical"></LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
                 <TextView
+                    android:id="@+id/date_16"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:text="1"
+                    android:background="@drawable/border_of_calendar"
                     android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
+                    android:text="16"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_16"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
+                    android:orientation="vertical"></LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
                 <TextView
+                    android:id="@+id/date_17"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:text="1"
+                    android:background="@drawable/border_of_calendar"
                     android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
+                    android:text="17"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_17"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
+                    android:orientation="vertical"></LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
                 <TextView
+                    android:id="@+id/date_18"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:text="1"
+                    android:background="@drawable/border_of_calendar"
                     android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
+                    android:text="18"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_18"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
+                    android:orientation="vertical"></LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
                 <TextView
+                    android:id="@+id/date_19"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:text="1"
+                    android:background="@drawable/border_of_calendar"
                     android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
+                    android:text="19"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_19"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
+                    android:orientation="vertical"></LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
                 <TextView
+                    android:id="@+id/date_20"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:text="1"
+                    android:background="@drawable/border_of_calendar"
                     android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
+                    android:text="20"
+                    android:textColor="#0000ff" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_20"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
+                    android:orientation="vertical"></LinearLayout>
             </LinearLayout>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:orientation="horizontal"
             android:layout_weight="5"
+            android:orientation="horizontal"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="0dp">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
                 <TextView
+                    android:id="@+id/date_21"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:text="1"
+                    android:background="@drawable/border_of_calendar"
                     android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
+                    android:text="21"
+                    android:textColor="#ff0000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_21"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
+                    android:orientation="vertical"></LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
                 <TextView
+                    android:id="@+id/date_22"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:text="1"
+                    android:background="@drawable/border_of_calendar"
                     android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
+                    android:text="22"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_22"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
+                    android:orientation="vertical"></LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
                 <TextView
+                    android:id="@+id/date_23"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:text="1"
+                    android:background="@drawable/border_of_calendar"
                     android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
+                    android:text="23"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_23"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
+                    android:orientation="vertical"></LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
                 <TextView
+                    android:id="@+id/date_24"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:text="1"
+                    android:background="@drawable/border_of_calendar"
                     android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
+                    android:text="24"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_24"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
+                    android:orientation="vertical"></LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
                 <TextView
+                    android:id="@+id/date_25"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:text="1"
+                    android:background="@drawable/border_of_calendar"
                     android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
+                    android:text="25"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_25"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
+                    android:orientation="vertical"></LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
                 <TextView
+                    android:id="@+id/date_26"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:text="1"
+                    android:background="@drawable/border_of_calendar"
                     android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
+                    android:text="26"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_26"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
+                    android:orientation="vertical"></LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
                 <TextView
+                    android:id="@+id/date_27"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:text="1"
+                    android:background="@drawable/border_of_calendar"
                     android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
-                <TextView
+                    android:text="27"
+                    android:textColor="#0000ff" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_27"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="Hello\nWorld"
-                    android:gravity="center"
-                    android:textColor="#000000">
-                </TextView>
+                    android:orientation="vertical"></LinearLayout>
             </LinearLayout>
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/date_28"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_of_calendar"
+                    android:gravity="center"
+                    android:text="28"
+                    android:textColor="#ff0000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_28"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:orientation="vertical"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/date_29"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_of_calendar"
+                    android:gravity="center"
+                    android:text="29"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_29"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:orientation="vertical"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/date_30"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_of_calendar"
+                    android:gravity="center"
+                    android:text="30"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_30"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:orientation="vertical"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/date_31"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_of_calendar"
+                    android:gravity="center"
+                    android:text="31"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_31"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:orientation="vertical"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/date_32"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_of_calendar"
+                    android:gravity="center"
+                    android:text="32"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_32"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:orientation="vertical"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/date_33"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_of_calendar"
+                    android:gravity="center"
+                    android:text="33"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_33"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:orientation="vertical"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/date_34"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_of_calendar"
+                    android:gravity="center"
+                    android:text="34"
+                    android:textColor="#0000ff" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_34"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:orientation="vertical"></LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/date_35"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_of_calendar"
+                    android:gravity="center"
+                    android:text="35"
+                    android:textColor="#ff0000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_35"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:orientation="vertical"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/date_36"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_of_calendar"
+                    android:gravity="center"
+                    android:text="36"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_36"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:orientation="vertical"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/date_37"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_of_calendar"
+                    android:gravity="center"
+                    android:text="37"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_37"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:orientation="vertical"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/date_38"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_of_calendar"
+                    android:gravity="center"
+                    android:text="38"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_38"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:orientation="vertical"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/date_39"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_of_calendar"
+                    android:gravity="center"
+                    android:text="39"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_39"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:orientation="vertical"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/date_40"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_of_calendar"
+                    android:gravity="center"
+                    android:text="40"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_40"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:orientation="vertical"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/border_of_calendar"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/date_41"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_of_calendar"
+                    android:gravity="center"
+                    android:text="41"
+                    android:textColor="#0000ff" />
+
+                <LinearLayout
+                    android:id="@+id/date_content_41"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:orientation="vertical"></LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
 
     </LinearLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
