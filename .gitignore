@@ -20,3 +20,10 @@ local.properties
 build.gradle
 gradle/wrapper/gradle-wrapper.properties
 .idea/vcs.xml
+app/.idea/misc.xml
+app/.idea/vcs.xml
+app/.idea/workspace.xml
+app/.idea/vcs.xml
+app/src/.idea/misc.xml
+app/src/.idea/vcs.xml
+app/src/.idea/workspace.xml
