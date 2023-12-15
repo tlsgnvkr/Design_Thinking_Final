@@ -19,5 +19,5 @@ data class Entity(
 //    var repeat : Int = 0, // 1, 2, 4, 8, 16, 32, 64 : 일~토, 128 : 매월 256 : 매년
     var detail: String = "",
     var memo: String = "",
-    var color: String = "#00FF00"
+    var color: String = "#A8C879"
 )

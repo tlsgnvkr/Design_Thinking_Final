@@ -1,13 +1,17 @@
 package com.example.design_thinking_final
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.graphics.Color
 import android.graphics.drawable.ClipDrawable.VERTICAL
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.ImageView
+import android.widget.Toast
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 
 class EmailListActivity : AppCompatActivity() {
@@ -42,5 +46,33 @@ class EmailListActivity : AppCompatActivity() {
         boardAdapter.notifyDataSetChanged()
         board.adapter = boardAdapter
         board.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
+
+//        boardAdapter.itemClick = object : BoardAdapter.ItemClick {  //클릭이벤트추가부분
+//            override fun onClick(view: View, position: Int) {
+//                val intent = Intent(this@EmailListActivity, EmailDetailActivity::class.java)
+//                intent.putExtra("title", itemList[position].title)
+//                intent.putExtra("sender", itemList[position].sender)
+//                intent.putExtra("content", itemList[position].content)
+//                startActivity(intent)
+//            }
+//        }
+//        board.setOnClickListener {
+//            val intent = Intent(this, EmailDetailActivity::class.java)
+//            intent.putExtra("title", itemList[3].title)
+//            intent.putExtra("sender", itemList[3].sender)
+//            intent.putExtra("content", itemList[3].content)
+//            startActivity(intent)
+//        }
+
+        boardAdapter.setItemClickListener(object: BoardAdapter.OnItemClickListener{
+            override fun onClick(v: View, position: Int) {
+                // 클릭 시 이벤트 작성
+                val intent = Intent(this@EmailListActivity, EmailDetailActivity::class.java)
+                intent.putExtra("title", itemList[position].title)
+                intent.putExtra("sender", itemList[position].sender)
+                intent.putExtra("content", itemList[position].content)
+                startActivity(intent)
+            }
+        })
     }
 }
