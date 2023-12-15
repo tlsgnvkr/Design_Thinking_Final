@@ -32,7 +32,7 @@ class EditDateActivity : AppCompatActivity() {
             // 1 : e-campus, 2 : email, 0 : another
         val modedata = intent.getStringExtra("mode")
         if(modedata=="new"){
-            val wheredata = intent.getStringExtra("mode")
+            val wheredata = intent.getStringExtra("where")
             if(wheredata == "email") mode=2
             else if(wheredata == "campus") mode=1
             else mode=0
@@ -52,14 +52,19 @@ class EditDateActivity : AppCompatActivity() {
 
         var color = when (mode) {
             0 -> {
-                "#00FF00"
+                "#A8C879"
             }
             1 -> {
-                "#FF0000"
+                "#EDAA7D"
             }
             else -> {
-                "#0000FF"
+                "#96B1D0"
             }
+        }
+
+        if(mode==2){
+            findViewById<EditText>(R.id.editdate_title).setText(intent.getStringExtra("title"))
+            findViewById<EditText>(R.id.editdate_logic).setText(intent.getStringExtra("content"))
         }
 
         findViewById<TextView>(R.id.editdate_startday).text = startDay.format(DateTimeFormatter.ofPattern("yyyy-MM-dd"))
