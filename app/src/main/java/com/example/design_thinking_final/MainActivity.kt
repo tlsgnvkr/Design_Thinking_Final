@@ -1,5 +1,6 @@
 package com.example.design_thinking_final
 
+import android.content.Intent
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
@@ -9,6 +10,7 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
+import androidx.room.Room
 import com.example.design_thinking_final.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -29,13 +31,25 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
 
         binding.fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                    .setAction("Action", null).show()
+            val intent = Intent(this, EditDateActivity::class.java)
+            intent.putExtra("mode", "new")
+            intent.putExtra("where", "home")
+            startActivity(intent)
+            finish()
         }
+
+        //database
+        val db = Room.databaseBuilder(
+            applicationContext, AppDatabase::class.java, "database"
+        ).allowMainThreadQueries().build()
+
+        // db에 저장된 데이터 불러오기
+        val data = db.dao().getAll()
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.
+
         menuInflater.inflate(R.menu.menu_main, menu)
         return true
     }
@@ -44,9 +58,13 @@ class MainActivity : AppCompatActivity() {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
+        val intent = Intent(this, EmailListActivity::class.java)
+        startActivity(intent)
         return when (item.itemId) {
+
             R.id.action_settings -> true
             else -> super.onOptionsItemSelected(item)
+
         }
     }
 
