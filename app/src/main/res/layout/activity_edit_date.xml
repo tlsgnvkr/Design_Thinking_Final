@@ -15,13 +15,29 @@
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp">
 
-        <EditText
-            android:id="@+id/editdate_title"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Title"
-            android:textSize="25dp"
-            android:textStyle="bold" />
+            android:orientation="horizontal"
+            android:gravity="center">
+            <EditText
+                android:id="@+id/editdate_title"
+                android:layout_width="0dp"
+                android:layout_weight="9"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:hint="Title"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/plus_symbol_button"
+                android:id="@+id/editdate_push"/>
+        </LinearLayout>
+
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -30,7 +46,8 @@
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="30dp"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                app:srcCompat="@drawable/time_svgrepo_com">
             </ImageView>
             <TextView
                 android:layout_width="0dp"
@@ -45,7 +62,9 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:gravity="center">
+                android:gravity="center"
+                android:id="@+id/editdate_allday"
+                android:checked="true">
             </CheckBox>
         </LinearLayout>
 
@@ -59,16 +78,18 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textSize="20dp"
-                android:text="yyyy-mm-dd\nhh:mm"
-                android:gravity="center_horizontal">
+                android:text="yyyy-mm-dd\n"
+                android:gravity="center_horizontal"
+                android:id="@+id/editdate_startday">
             </TextView>
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textSize="20dp"
-                android:text="yyyy-mm-dd\nhh:mm"
-                android:gravity="center_horizontal">
+                android:text="yyyy-mm-dd\n"
+                android:gravity="center_horizontal"
+                android:id="@+id/editdate_endday">
             </TextView>
         </LinearLayout>
 
@@ -81,7 +102,8 @@
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="45dp"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                app:srcCompat="@drawable/location">
             </ImageView>
             <EditText
                 android:layout_width="0dp"
@@ -90,7 +112,9 @@
                 android:textSize="20dp"
                 android:hint="Location"
                 android:layout_marginLeft="5dp"
-                android:gravity="center_vertical">
+                android:singleLine="true"
+                android:gravity="center_vertical"
+                android:id="@+id/editdate_location">
             </EditText>
         </LinearLayout>
 
@@ -103,26 +127,19 @@
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="45dp"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bell">
             </ImageView>
-            <EditText
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="2"
-                android:textSize="20dp"
-                android:hint="10"
-                android:layout_marginLeft="5dp"
-                android:gravity="center_vertical">
-            </EditText>
             <Spinner
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="3">
+                android:layout_weight="4"
+                android:id="@+id/editdate_alarm">
             </Spinner>
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="5"
+                android:layout_weight="6"
                 android:textSize="20dp"
                 android:text="Before"
                 android:gravity="center_vertical">
@@ -131,25 +148,69 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:orientation="horizontal">
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="45dp"
-                android:layout_weight="1">
-            </ImageView>
-            <Spinner
-                android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/memo">
+                </ImageView>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="11"
+                    android:textSize="20dp"
+                    android:text="Memo"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical">
+                </TextView>
+            </LinearLayout>
+            <EditText
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="4">
-            </Spinner>
-            <TextView
-                android:layout_width="0dp"
+                android:layout_weight="10"
+                android:hint="Memo"
+                android:gravity="top|left"
+                android:id="@+id/editdate_memo"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/logic">
+                </ImageView>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="11"
+                    android:textSize="20dp"
+                    android:text="Logic"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical">
+                </TextView>
+            </LinearLayout>
+            <EditText
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="6">
-            </TextView>
+                android:layout_weight="10"
+                android:hint="Logic"
+                android:gravity="top|left"
+                android:id="@+id/editdate_logic"/>
         </LinearLayout>
+
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

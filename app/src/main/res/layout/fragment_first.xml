@@ -46,7 +46,6 @@
                     android:id="@+id/date_month"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/border_of_calendar"
                     android:gravity="center"
                     android:text="0000년 00월"
                     android:textSize="15pt" />
@@ -64,7 +63,8 @@
                     android:layout_marginRight="20dp"
                     android:gravity="center"
                     android:text="  ▶  "
-                    android:textSize="15pt"/>
+                    android:textSize="15pt"
+                    android:id="@+id/date_forward" />
             </LinearLayout>
         </LinearLayout>
 
@@ -1060,7 +1060,8 @@
             android:layout_weight="5"
             android:orientation="horizontal"
             tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="0dp">
+            tools:layout_editor_absoluteY="0dp"
+            android:id="@+id/date_lastline">
 
             <LinearLayout
                 android:layout_width="match_parent"
